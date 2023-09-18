@@ -1,0 +1,765 @@
+#container4 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: #161933;
+  z-index: 50;
+  position: relative;
+}
+#container4 .main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 70%;
+  height: 55%;
+  align-items: center;
+  background-color: #fff;
+  overflow: hidden;
+  padding: 50px;
+}
+#container4 .main .top_content4 {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#container4 .main .top_content4 > div {
+  width: 100%;
+}
+#container4 .main .top_content4 .top_textbox1 h1 {
+  letter-spacing: 2px;
+  font-size: 55px;
+  font-family: "Cafe24Dangdanghae";
+  color: #161933;
+  margin-bottom: 10px;
+}
+@font-face {
+  font-family: "Cafe24Dangdanghae";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.2/Cafe24Dangdanghae.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+#container4 .main .top_content4 .top_textbox1 h1 a {
+  color: #161933;
+}
+#container4 .main .top_content4 .top_textbox1 h1:hover a {
+  transition: all 0.3s;
+  color: #ff5100;
+}
+#container4 .main .top_content4 .top_textbox2 {
+  margin-top: 30px;
+}
+#container4 .main .top_content4 .top_textbox2 p {
+  font-size: 17px;
+  color: #161933;
+  margin-bottom: 10px;
+  font-family: "NEXON Lv1 Gothic OTF";
+}
+@font-face {
+  font-family: "NEXON Lv1 Gothic OTF";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+#container4 .main .top_content4 .top_textbox2 p span {
+  color: #ff5100;
+}
+#container4 .main .bot_content4 {
+  width: 90%;
+}
+#container4 .main .bot_content4 .bot_content4_list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#container4 .main .bot_content4 .bot_content4_list > div {
+  border-radius: 10px;
+  width: 42%;
+  padding: 80px 40px 60px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  transition: all 0.5s;
+}
+#container4 .main .bot_content4 .bot_content4_list > div:hover {
+  box-shadow: 0px 20px 20px 0px rgba(31, 35, 83, 0.3);
+}
+#container4 .main .bot_content4 .bot_content4_list > div .content4_title {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+#container4 .main .bot_content4 .bot_content4_list > div .content4_title h1 {
+  letter-spacing: 1px;
+  width: 200px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background-color: #161933;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 28px;
+  font-family: "Cafe24Dangdanghae";
+  box-shadow: 5px 5px 10px rgba(31, 35, 83, 0.3);
+}
+@font-face {
+  font-family: "Cafe24Dangdanghae";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.2/Cafe24Dangdanghae.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+#container4 .main .bot_content4 .bot_content4_list > div .bot_textbox04 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+#container4 .main .bot_content4 .bot_content4_list > div .bot_textbox04 p {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 10px;
+  font-family: "NEXON Lv1 Gothic OTF";
+}
+@font-face {
+  font-family: "NEXON. Lv1 Gothic OTF";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+#container4 .main .bot_content4 .bot_content4_list > div .bot_textbox04 p a {
+  transition: all 0.5s;
+  color: #fff;
+}
+#container4 .main .bot_content4 .bot_content4_list > div .bot_textbox04 p a:hover {
+  color: rgb(0, 153, 255);
+}
+#container4 .main .bot_content4 .bot_content4_list .boxs1 {
+  background: linear-gradient(360deg, #1f2353, #52cc8f);
+}
+#container4 .main .bot_content4 .bot_content4_list .boxs1 .content4_title h1 {
+  background: linear-gradient(180deg, #1f2353, #52cc8f);
+}
+#container4 .main .bot_content4 .bot_content4_list .boxs2 {
+  background: linear-gradient(360deg, #1f2353, #ef552b);
+}
+#container4 .main .bot_content4 .bot_content4_list .boxs2 .content4_title h1 {
+  background: linear-gradient(180deg, #1f2353, #ef552b);
+}
+
+@media screen and (max-width: 1440px) {
+  #container4 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #161933;
+  }
+  #container4 .main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 45%;
+    align-items: center;
+    background-color: #fff;
+    overflow: hidden;
+    padding: 50px;
+  }
+  #container4 .main .top_content4 {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  #container4 .main .top_content4 > div {
+    width: 100%;
+  }
+  #container4 .main .top_content4 .top_textbox1 h1 {
+    letter-spacing: 2px;
+    font-size: 55px;
+    font-family: "Cafe24Dangdanghae";
+    color: #161933;
+    margin-bottom: 10px;
+  }
+  @font-face {
+    font-family: "Cafe24Dangdanghae";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.2/Cafe24Dangdanghae.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  #container4 .main .top_content4 .top_textbox1 h1 a {
+    color: #161933;
+  }
+  #container4 .main .top_content4 .top_textbox1 h1:hover a {
+    transition: all 0.3s;
+    color: #ff5100;
+  }
+  #container4 .main .top_content4 .top_textbox2 {
+    margin-top: 30px;
+  }
+  #container4 .main .top_content4 .top_textbox2 p {
+    font-size: 17px;
+    color: #161933;
+    margin-bottom: 10px;
+    font-family: "NEXON Lv1 Gothic OTF";
+  }
+  @font-face {
+    font-family: "NEXON Lv1 Gothic OTF";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  #container4 .main .top_content4 .top_textbox2 p span {
+    color: #ff5100;
+  }
+  #container4 .main .bot_content4 {
+    width: 90%;
+  }
+  #container4 .main .bot_content4 .bot_content4_list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  #container4 .main .bot_content4 .bot_content4_list > div {
+    border-radius: 10px;
+    width: 40%;
+    padding: 80px 40px 60px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    transition: all 0.5s;
+  }
+  #container4 .main .bot_content4 .bot_content4_list > div:hover {
+    box-shadow: 0px 20px 20px 0px rgba(31, 35, 83, 0.3);
+  }
+  #container4 .main .bot_content4 .bot_content4_list > div .content4_title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  #container4 .main .bot_content4 .bot_content4_list > div .content4_title h1 {
+    letter-spacing: 1px;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #161933;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 28px;
+    font-family: "Cafe24Dangdanghae";
+    box-shadow: 5px 5px 10px rgba(31, 35, 83, 0.3);
+  }
+  @font-face {
+    font-family: "Cafe24Dangdanghae";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.2/Cafe24Dangdanghae.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  #container4 .main .bot_content4 .bot_content4_list > div .bot_textbox04 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  #container4 .main .bot_content4 .bot_content4_list > div .bot_textbox04 p {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 10px;
+    font-family: "NEXON Lv1 Gothic OTF";
+  }
+  @font-face {
+    font-family: "NEXON. Lv1 Gothic OTF";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  #container4 .main .bot_content4 .bot_content4_list > div .bot_textbox04 p a {
+    transition: all 0.5s;
+    color: #fff;
+  }
+  #container4 .main .bot_content4 .bot_content4_list > div .bot_textbox04 p a:hover {
+    color: rgb(0, 153, 255);
+  }
+  #container4 .main .bot_content4 .bot_content4_list .boxs1 {
+    background: linear-gradient(360deg, #1f2353, #52cc8f);
+  }
+  #container4 .main .bot_content4 .bot_content4_list .boxs1 .content4_title h1 {
+    background: linear-gradient(180deg, #1f2353, #52cc8f);
+  }
+  #container4 .main .bot_content4 .bot_content4_list .boxs2 {
+    background: linear-gradient(360deg, #1f2353, #ef552b);
+  }
+  #container4 .main .bot_content4 .bot_content4_list .boxs2 .content4_title h1 {
+    background: linear-gradient(180deg, #1f2353, #ef552b);
+  }
+}
+@media screen and (max-width: 1024px) {
+  #container4 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #161933;
+  }
+  #container4 .main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 65%;
+    align-items: center;
+    background-color: #fff;
+    overflow: hidden;
+    padding: 50px;
+  }
+  #container4 .main .top_content4 {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  #container4 .main .top_content4 > div {
+    width: 100%;
+  }
+  #container4 .main .top_content4 .top_textbox1 h1 {
+    letter-spacing: 2px;
+    font-size: 55px;
+    font-family: "Cafe24Dangdanghae";
+    color: #161933;
+    margin-bottom: 10px;
+  }
+  @font-face {
+    font-family: "Cafe24Dangdanghae";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.2/Cafe24Dangdanghae.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  #container4 .main .top_content4 .top_textbox1 h1 a {
+    color: #161933;
+  }
+  #container4 .main .top_content4 .top_textbox1 h1:hover a {
+    transition: all 0.3s;
+    color: #ff5100;
+  }
+  #container4 .main .top_content4 .top_textbox2 {
+    margin-top: 30px;
+  }
+  #container4 .main .top_content4 .top_textbox2 p {
+    font-size: 17px;
+    color: #161933;
+    margin-bottom: 10px;
+    font-family: "NEXON Lv1 Gothic OTF";
+  }
+  @font-face {
+    font-family: "NEXON Lv1 Gothic OTF";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  #container4 .main .top_content4 .top_textbox2 p span {
+    color: #ff5100;
+  }
+  #container4 .main .bot_content4 {
+    width: 90%;
+  }
+  #container4 .main .bot_content4 .bot_content4_list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  #container4 .main .bot_content4 .bot_content4_list > div {
+    border-radius: 10px;
+    width: 36%;
+    padding: 80px 40px 60px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    transition: all 0.5s;
+  }
+  #container4 .main .bot_content4 .bot_content4_list > div:hover {
+    box-shadow: 0px 20px 20px 0px rgba(31, 35, 83, 0.3);
+  }
+  #container4 .main .bot_content4 .bot_content4_list > div .content4_title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  #container4 .main .bot_content4 .bot_content4_list > div .content4_title h1 {
+    letter-spacing: 1px;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #161933;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 25px;
+    font-family: "Cafe24Dangdanghae";
+    box-shadow: 5px 5px 10px rgba(31, 35, 83, 0.3);
+  }
+  @font-face {
+    font-family: "Cafe24Dangdanghae";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.2/Cafe24Dangdanghae.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  #container4 .main .bot_content4 .bot_content4_list > div .bot_textbox04 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  #container4 .main .bot_content4 .bot_content4_list > div .bot_textbox04 p {
+    font-size: 11px;
+    color: #fff;
+    margin-bottom: 10px;
+    font-family: "NEXON Lv1 Gothic OTF";
+  }
+  @font-face {
+    font-family: "NEXON. Lv1 Gothic OTF";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  #container4 .main .bot_content4 .bot_content4_list > div .bot_textbox04 p a {
+    transition: all 0.5s;
+    color: #fff;
+  }
+  #container4 .main .bot_content4 .bot_content4_list > div .bot_textbox04 p a:hover {
+    color: rgb(0, 153, 255);
+  }
+  #container4 .main .bot_content4 .bot_content4_list .boxs1 {
+    background: linear-gradient(360deg, #1f2353, #52cc8f);
+  }
+  #container4 .main .bot_content4 .bot_content4_list .boxs1 .content4_title h1 {
+    background: linear-gradient(180deg, #1f2353, #52cc8f);
+  }
+  #container4 .main .bot_content4 .bot_content4_list .boxs2 {
+    background: linear-gradient(360deg, #1f2353, #ef552b);
+  }
+  #container4 .main .bot_content4 .bot_content4_list .boxs2 .content4_title h1 {
+    background: linear-gradient(180deg, #1f2353, #ef552b);
+  }
+}
+@media screen and (max-width: 768px) {
+  #container4 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #161933;
+  }
+  #container4 .main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 75%;
+    align-items: center;
+    background-color: #fff;
+    overflow: hidden;
+    padding: 50px;
+  }
+  #container4 .main .top_content4 {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  #container4 .main .top_content4 > div {
+    width: 100%;
+  }
+  #container4 .main .top_content4 .top_textbox1 h1 {
+    letter-spacing: 2px;
+    font-size: 40px;
+    font-family: "Cafe24Dangdanghae";
+    color: #161933;
+    margin-bottom: 10px;
+  }
+  @font-face {
+    font-family: "Cafe24Dangdanghae";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.2/Cafe24Dangdanghae.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  #container4 .main .top_content4 .top_textbox1 h1 a {
+    color: #161933;
+  }
+  #container4 .main .top_content4 .top_textbox1 h1:hover a {
+    transition: all 0.3s;
+    color: #ff5100;
+  }
+  #container4 .main .top_content4 .top_textbox2 {
+    margin-top: 30px;
+  }
+  #container4 .main .top_content4 .top_textbox2 p {
+    font-size: 17px;
+    color: #161933;
+    margin-bottom: 10px;
+    font-family: "NEXON Lv1 Gothic OTF";
+  }
+  @font-face {
+    font-family: "NEXON Lv1 Gothic OTF";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  #container4 .main .top_content4 .top_textbox2 p span {
+    color: #ff5100;
+  }
+  #container4 .main .bot_content4 {
+    width: 90%;
+  }
+  #container4 .main .bot_content4 .bot_content4_list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  #container4 .main .bot_content4 .bot_content4_list > div {
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 100%;
+    padding: 40px 40px 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    transition: all 0.5s;
+  }
+  #container4 .main .bot_content4 .bot_content4_list > div:hover {
+    box-shadow: 0px 20px 20px 0px rgba(31, 35, 83, 0.3);
+  }
+  #container4 .main .bot_content4 .bot_content4_list > div .content4_title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  #container4 .main .bot_content4 .bot_content4_list > div .content4_title h1 {
+    letter-spacing: 1px;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #161933;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 25px;
+    font-family: "Cafe24Dangdanghae";
+    box-shadow: 5px 5px 10px rgba(31, 35, 83, 0.3);
+  }
+  @font-face {
+    font-family: "Cafe24Dangdanghae";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.2/Cafe24Dangdanghae.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  #container4 .main .bot_content4 .bot_content4_list > div .bot_textbox04 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  #container4 .main .bot_content4 .bot_content4_list > div .bot_textbox04 p {
+    font-size: 11px;
+    color: #fff;
+    margin-bottom: 10px;
+    font-family: "NEXON Lv1 Gothic OTF";
+  }
+  @font-face {
+    font-family: "NEXON. Lv1 Gothic OTF";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  #container4 .main .bot_content4 .bot_content4_list > div .bot_textbox04 p a {
+    transition: all 0.5s;
+    color: #fff;
+  }
+  #container4 .main .bot_content4 .bot_content4_list > div .bot_textbox04 p a:hover {
+    color: rgb(0, 153, 255);
+  }
+  #container4 .main .bot_content4 .bot_content4_list .boxs1 {
+    background: linear-gradient(360deg, #1f2353, #52cc8f);
+  }
+  #container4 .main .bot_content4 .bot_content4_list .boxs1 .content4_title h1 {
+    background: linear-gradient(180deg, #1f2353, #52cc8f);
+  }
+  #container4 .main .bot_content4 .bot_content4_list .boxs2 {
+    background: linear-gradient(360deg, #1f2353, #ef552b);
+  }
+  #container4 .main .bot_content4 .bot_content4_list .boxs2 .content4_title h1 {
+    background: linear-gradient(180deg, #1f2353, #ef552b);
+  }
+}
+@media screen and (max-width: 500px) {
+  #container4 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #161933;
+  }
+  #container4 .main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 80%;
+    align-items: center;
+    background-color: #fff;
+    overflow: hidden;
+    padding: 20px;
+  }
+  #container4 .main .top_content4 {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  #container4 .main .top_content4 > div {
+    width: 100%;
+  }
+  #container4 .main .top_content4 .top_textbox1 h1 {
+    letter-spacing: 1px;
+    font-size: 28px;
+    font-family: "Cafe24Dangdanghae";
+    color: #161933;
+    margin-bottom: 10px;
+  }
+  @font-face {
+    font-family: "Cafe24Dangdanghae";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.2/Cafe24Dangdanghae.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  #container4 .main .top_content4 .top_textbox1 h1 a {
+    color: #161933;
+  }
+  #container4 .main .top_content4 .top_textbox1 h1:hover a {
+    transition: all 0.3s;
+    color: #ff5100;
+  }
+  #container4 .main .top_content4 .top_textbox2 {
+    margin-top: 30px;
+  }
+  #container4 .main .top_content4 .top_textbox2 p {
+    font-size: 13px;
+    color: #161933;
+    margin-bottom: 10px;
+    font-family: "NEXON Lv1 Gothic OTF";
+  }
+  @font-face {
+    font-family: "NEXON Lv1 Gothic OTF";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  #container4 .main .top_content4 .top_textbox2 p span {
+    color: #ff5100;
+  }
+  #container4 .main .bot_content4 {
+    width: 100%;
+  }
+  #container4 .main .bot_content4 .bot_content4_list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  #container4 .main .bot_content4 .bot_content4_list > div {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 70px 40px 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    transition: all 0.5s;
+  }
+  #container4 .main .bot_content4 .bot_content4_list > div:hover {
+    box-shadow: 0px 20px 20px 0px rgba(31, 35, 83, 0.3);
+  }
+  #container4 .main .bot_content4 .bot_content4_list > div .content4_title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  #container4 .main .bot_content4 .bot_content4_list > div .content4_title h1 {
+    letter-spacing: 1px;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #161933;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 20px;
+    font-family: "Cafe24Dangdanghae";
+    box-shadow: 5px 5px 10px rgba(31, 35, 83, 0.3);
+  }
+  @font-face {
+    font-family: "Cafe24Dangdanghae";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.2/Cafe24Dangdanghae.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  #container4 .main .bot_content4 .bot_content4_list > div .bot_textbox04 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  #container4 .main .bot_content4 .bot_content4_list > div .bot_textbox04 p {
+    font-size: 10px;
+    color: #fff;
+    margin-bottom: 10px;
+    font-family: "NEXON Lv1 Gothic OTF";
+  }
+  @font-face {
+    font-family: "NEXON. Lv1 Gothic OTF";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  #container4 .main .bot_content4 .bot_content4_list > div .bot_textbox04 p a {
+    transition: all 0.5s;
+    color: #fff;
+  }
+  #container4 .main .bot_content4 .bot_content4_list > div .bot_textbox04 p a:hover {
+    color: rgb(0, 153, 255);
+  }
+  #container4 .main .bot_content4 .bot_content4_list .boxs1 {
+    background: linear-gradient(360deg, #1f2353, #52cc8f);
+  }
+  #container4 .main .bot_content4 .bot_content4_list .boxs1 .content4_title h1 {
+    background: linear-gradient(180deg, #1f2353, #52cc8f);
+  }
+  #container4 .main .bot_content4 .bot_content4_list .boxs2 {
+    background: linear-gradient(360deg, #1f2353, #ef552b);
+  }
+  #container4 .main .bot_content4 .bot_content4_list .boxs2 .content4_title h1 {
+    background: linear-gradient(180deg, #1f2353, #ef552b);
+  }
+}
