@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3b67d45d.css",
+    "main.js": "/static/js/main.6a68d280.js",
+    "static/js/453.ad6eb26e.chunk.js": "/static/js/453.ad6eb26e.chunk.js",
+    "static/media/clay-self.png": "/static/media/clay-self.9902ca21b1ec6f115ab2.png",
+    "static/media/clay_ctv.png": "/static/media/clay_ctv.1831fdd4af7afc456b74.png",
+    "static/media/clay-phone.png": "/static/media/clay-phone.2a7e9dbb65537733c8b2.png",
+    "static/media/list2img1.png": "/static/media/list2img1.4441753f8ecd1a1285f9.png",
+    "static/media/list2img2.png": "/static/media/list2img2.41dcc8df19d287becb3d.png",
+    "index.html": "/index.html",
+    "main.3b67d45d.css.map": "/static/css/main.3b67d45d.css.map",
+    "main.6a68d280.js.map": "/static/js/main.6a68d280.js.map",
+    "453.ad6eb26e.chunk.js.map": "/static/js/453.ad6eb26e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b67d45d.css",
+    "static/js/main.6a68d280.js"
+  ]
+}
